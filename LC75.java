@@ -20,7 +20,7 @@ import java.util.*;
 // }
 
 
-class Solution1 {
+class Solution {
     public void sortColors(int[] nums) {
         int[] arr = new int[nums.length];
         Arrays.fill(arr,1);

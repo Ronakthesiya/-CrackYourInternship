@@ -1,4 +1,4 @@
-class Solution4 {
+class Solution {
     public int maxProfit(int[] prices) {
         int n=prices.length;
         int max=Integer.MAX_VALUE;
