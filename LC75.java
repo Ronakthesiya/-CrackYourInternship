@@ -1,3 +1,5 @@
+import java.util.*;
+
 // class Solution {
 //     public void sortColors(int[] nums) {
 //         for(int i=0;i<nums.length-1;i++){
@@ -18,7 +20,7 @@
 // }
 
 
-class Solution {
+class Solution1 {
     public void sortColors(int[] nums) {
         int[] arr = new int[nums.length];
         Arrays.fill(arr,1);
